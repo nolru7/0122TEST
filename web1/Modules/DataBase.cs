@@ -12,7 +12,7 @@ namespace WebAPI2.Modules
 
         private MySqlConnection GetConnection()
         {
-            string host = "192.168.3.37";
+            string host = "192.168.3.124";
             string user = "root";
             string pwd = "1234";
             string db = "test";

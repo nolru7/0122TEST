@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\gdc5\\Downloads\\download\\20181207\\20181207.csproj",
+  "TargetFramework": "v4.6.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

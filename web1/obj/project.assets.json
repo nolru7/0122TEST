@@ -11874,11 +11874,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gd8\\Desktop\\web1\\web1.csproj",
+      "projectUniqueName": "C:\\Users\\gd8\\Desktop\\1월\\0121\\git\\0122TEST\\web1\\web1.csproj",
       "projectName": "web1",
-      "projectPath": "C:\\Users\\gd8\\Desktop\\web1\\web1.csproj",
+      "projectPath": "C:\\Users\\gd8\\Desktop\\1월\\0121\\git\\0122TEST\\web1\\web1.csproj",
       "packagesPath": "C:\\Users\\gd8\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gd8\\Desktop\\web1\\obj\\",
+      "outputPath": "C:\\Users\\gd8\\Desktop\\1월\\0121\\git\\0122TEST\\web1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
