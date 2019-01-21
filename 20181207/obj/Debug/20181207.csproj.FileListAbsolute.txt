@@ -46,3 +46,16 @@ C:\Users\gd8\Desktop\20181207\obj\Debug\20181207.csproj.CoreCompileInputs.cache
 C:\Users\gd8\Desktop\20181207\obj\Debug\20181207.csproj.CopyComplete
 C:\Users\gd8\Desktop\20181207\obj\Debug\20181207.exe
 C:\Users\gd8\Desktop\20181207\obj\Debug\20181207.pdb
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\bin\Debug\20181207.exe.config
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\bin\Debug\20181207.exe
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\bin\Debug\20181207.pdb
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\obj\Debug\20181207.csprojAssemblyReference.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\obj\Debug\_20181207.Properties.Resources.resources
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\obj\Debug\20181207.csproj.GenerateResource.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\obj\Debug\20181207.csproj.CoreCompileInputs.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\obj\Debug\20181207.csproj.CopyComplete
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\obj\Debug\20181207.exe
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\20181207\obj\Debug\20181207.pdb

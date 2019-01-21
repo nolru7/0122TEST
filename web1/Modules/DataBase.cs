@@ -1,5 +1,9 @@
 using System;
+using System.Collections;
+using System.IO;
 using MySql.Data.MySqlClient;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace WebAPI2.Modules
 {
@@ -12,21 +16,32 @@ namespace WebAPI2.Modules
 
         private MySqlConnection GetConnection()
         {
-            string host = "192.168.3.124";
-            string user = "root";
-            string pwd = "1234";
-            string db = "test";
-
-            string connStr = string.Format(@"server={0};user={1};password={2};database={3}", host, user, pwd, db);
-            MySqlConnection conn = new MySqlConnection(connStr);
+            
 
             try
             {
+                MySqlConnection conn = new MySqlConnection();
+
+                string path = "/public/DBInfo.json";
+                string result = new StreamReader(File.OpenRead(path)).ReadToEnd();
+                JObject jo = JsonConvert.DeserializeObject<JObject>(result);
+                Hashtable map = new Hashtable();
+                foreach (JProperty col in jo.Properties())
+                {
+                    Console.WriteLine("{0} : {1}", col.Name, col.Value);
+                    map.Add(col.Name, col.Value);
+                }
+                #region 
+                string strConnection1 =
+                    string.Format("server={0};user={1};password={2};database={3};", map["server"], map["user"], map["password"], map["database"]);
+                conn.ConnectionString = strConnection1;
                 conn.Open();
+                #endregion
                 return conn;
             }
-            catch
+            catch(MySqlException e)
             {
+                Console.WriteLine(e.Message);
                 return null;
             }
 
