@@ -21,7 +21,7 @@ namespace WebAPI2.Modules
             try
             {
                 MySqlConnection conn = new MySqlConnection();
-
+                
                 string path = "/public/DBInfo.json";
                 string result = new StreamReader(File.OpenRead(path)).ReadToEnd();
                 JObject jo = JsonConvert.DeserializeObject<JObject>(result);
@@ -32,10 +32,12 @@ namespace WebAPI2.Modules
                     map.Add(col.Name, col.Value);
                 }
                 #region 
+                
                 string strConnection1 =
                     string.Format("server={0};user={1};password={2};database={3};", map["server"], map["user"], map["password"], map["database"]);
                 conn.ConnectionString = strConnection1;
                 conn.Open();
+                
                 #endregion
                 return conn;
             }
