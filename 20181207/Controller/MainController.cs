@@ -201,7 +201,7 @@ namespace _20181207.Controller
             //listView.Items.Add(new ListViewItem(new string[] { "2", "제목2", "내용2", "스마트", "2018-12-06", "2016-12-07" }));
             //listView.Items.Add(new ListViewItem(new string[] { "1", "제목1", "내용1", "관리자", "2018-12-05", "2016-12-07" }));
 
-            WebApi("http://"+ ip +":5000/api/Select", nNo);
+            WebApi("http://"+ ip +":80/api/Select", nNo);
 
         }
 
@@ -218,7 +218,7 @@ namespace _20181207.Controller
             }
             else
             {
-                WebApi("http://"+ ip +":5000/api/Insert", nNo);
+                WebApi("http://"+ ip +":80/api/Insert", nNo);
             }
             
 
@@ -233,7 +233,7 @@ namespace _20181207.Controller
             }
             else
             {
-                WebApi("http://"+ip+":5000/api/Update", nNo);
+                WebApi("http://"+ip+":80/api/Update", nNo);
             }
 
         }
@@ -247,7 +247,7 @@ namespace _20181207.Controller
             }
             else
             {
-                WebApi("http://"+ip+":5000/api/Delete", nNo);
+                WebApi("http://"+ip+":80/api/Delete", nNo);
             }
 
             
