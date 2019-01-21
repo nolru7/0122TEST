@@ -12,3 +12,16 @@ C:\public\dotnet_Core_Pj\20181207\web1\obj\Debug\netcoreapp2.1\web1.AssemblyInfo
 C:\public\dotnet_Core_Pj\20181207\web1\obj\Debug\netcoreapp2.1\web1.RazorTargetAssemblyInfo.cache
 C:\public\dotnet_Core_Pj\20181207\web1\obj\Debug\netcoreapp2.1\web1.dll
 C:\public\dotnet_Core_Pj\20181207\web1\obj\Debug\netcoreapp2.1\web1.pdb
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\bin\Debug\netcoreapp2.1\web1.deps.json
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\bin\Debug\netcoreapp2.1\web1.runtimeconfig.json
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\bin\Debug\netcoreapp2.1\web1.runtimeconfig.dev.json
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\bin\Debug\netcoreapp2.1\web1.dll
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.csprojAssemblyReference.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.csproj.CoreCompileInputs.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.RazorAssemblyInfo.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.RazorAssemblyInfo.cs
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.AssemblyInfoInputs.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.AssemblyInfo.cs
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.RazorTargetAssemblyInfo.cache
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.dll
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.pdb
