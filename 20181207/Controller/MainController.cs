@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -24,6 +25,7 @@ namespace _20181207.Controller
         private Hashtable hashtable;
         private string nNo = null;
         private bool first = true;
+        private string ip = "";
 
         public MainController(Form parentForm)
         {
@@ -163,6 +165,17 @@ namespace _20181207.Controller
             hashtable.Add("enabled", false);
             textBox6 = comm.getTextBox(hashtable, controller);
 
+            string path = "/public/DBInfo.json";
+            string result = new StreamReader(File.OpenRead(path)).ReadToEnd();
+            JObject jo = JsonConvert.DeserializeObject<JObject>(result);
+            Hashtable map = new Hashtable();
+            foreach (JProperty col in jo.Properties())
+            {
+                Console.WriteLine("{0} : {1}", col.Name, col.Value);
+                map.Add(col.Name, col.Value);
+            }
+            ip = string.Format("{0}", map["ip"]);
+            MessageBox.Show(ip);
             GetSelect();
         }
 
@@ -188,7 +201,7 @@ namespace _20181207.Controller
             //listView.Items.Add(new ListViewItem(new string[] { "2", "제목2", "내용2", "스마트", "2018-12-06", "2016-12-07" }));
             //listView.Items.Add(new ListViewItem(new string[] { "1", "제목1", "내용1", "관리자", "2018-12-05", "2016-12-07" }));
 
-            WebApi("http://192.168.3.220:5000/api/Select", nNo);
+            WebApi("http://"+ ip +":5000/api/Select", nNo);
 
         }
 
@@ -205,7 +218,7 @@ namespace _20181207.Controller
             }
             else
             {
-                WebApi("http://192.168.3.220:5000/api/Insert", nNo);
+                WebApi("http://"+ ip +":5000/api/Insert", nNo);
             }
             
 
@@ -220,7 +233,7 @@ namespace _20181207.Controller
             }
             else
             {
-                WebApi("http://192.168.3.220:5000/api/Update", nNo);
+                WebApi("http://"+ip+":5000/api/Update", nNo);
             }
 
         }
@@ -234,7 +247,7 @@ namespace _20181207.Controller
             }
             else
             {
-                WebApi("http://192.168.3.220:5000/api/Delete", nNo);
+                WebApi("http://"+ip+":5000/api/Delete", nNo);
             }
 
             
