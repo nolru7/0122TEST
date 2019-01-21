@@ -25,3 +25,4 @@ C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.As
 C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.RazorTargetAssemblyInfo.cache
 C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.dll
 C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\obj\Debug\netcoreapp2.1\web1.pdb
+C:\Users\gd8\Desktop\1월\0121\git\0122TEST\web1\bin\Debug\netcoreapp2.1\web1.pdb
